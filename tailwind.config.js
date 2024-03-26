@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      background: {
-        'rrr': "url('./img/background.webp')"
+      backgroundImage: {
+        'back': "url('./img/background.jpg')"
       }
     },
   },
