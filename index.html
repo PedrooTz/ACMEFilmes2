@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ACME FILMES</title>
+  <script src="filmes.js"></script>
   <link rel="stylesheet" href="./src/output.css">
   <link rel="stylesheet" href="./src/input.css">
   <link rel="icon" href="./img/image_2-removebg-preview 2.png">
@@ -13,24 +13,22 @@
   <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
 </head>
 
-<body class="overflow-x-hidden text-white h-screen">
+<body class="overflow-x-hidden bg-gradient-to-b from-black via-black to-red-900  text-white h-screen">
   <header class="backdrop-blur rounded-3xl flex justify-between h-20 items-center px-12 py-5">
     <div class="p-10">
       <img src="./src/img/image_2-removebg-preview 2.png" alt="">
     </div>
-
     <div class="font-gilroy-medium">
       <nav>
-        <ul class="flex text-xl">
-
+        <ul class="flex flex-row gap-5  text-black text-xl">
           <a href="">
-            <li class="">Filmes</li>
+            <li>Filmes</li>
           </a>
           <a href="">
             <li>Séries</li>
           </a>
-          <div class="flex flex-row bg-white rounded-md justify-between items-center outline-none border-none px-4 w-[100%] h-10">
-            <input type="text" class="outline-none w- text-gray-700" placeholder="Digite aqui...">
+          <div class="flex-row rounded-md justify-between items-center outline-none border-none px-4 w-[80%] h-10">
+            <input type="text" class="outline-none text-black" placeholder="Digite aqui...">
             <img class="h-12" src="./src/img/lupa.png" alt="">
           </div>
 
@@ -39,8 +37,6 @@
         </ul>
       </nav>
     </div>
-
-
   </header>
 
   <main class="py-10">
@@ -50,8 +46,7 @@
   <section>
     <h2 class="text-2xl font-gilroy-bold">Populares</h2>
 
-    <div class="cursor-pointer m-5 flex gap-5 overflow-x-auto scrollbar-hide">
-
+    <div class="cursor-pointer m-5 flex gap-5 overflow-x-auto scrollbar-hide hover:outline-none">
       <img src="./src/img//Rectangle 10.png" alt="">
       <a href="./src/movie.html">
         <img src="./img/Rectangle 14.png" alt="" class="max-w-[17.5rem] rounded-xl">
@@ -71,18 +66,16 @@
   <section>
     <h2 class="text-2xl font-gilroy-bold">Novos</h2>
 
-    <div class="m-5 flex gap-5 overflow-x-auto scrollbar-hide">
-      <img src="./src/img/Rectangle 15.png" alt="" class="cursor-pointer">
-      <img src="./src/img/Rectangle 24.png" alt="" class="cursor-pointer">
-      <img src="./src/img/Rectangle 15.png" alt="" class="cursor-pointer">
-      <img src="./src/img/Rectangle 24.png" alt="" class="cursor-pointer">
-      <img src="./src/img/Rectangle 15.png" alt="" class="cursor-pointer">
-      <img src="./src/img/Rectangle 24.png" alt="" class="cursor-pointer">
-      <img src="./src/img/Rectangle 15.png" alt="" class="cursor-pointer">
-      <img src="./src/img/Rectangle 24.png" alt="" class="cursor-pointer">
+    <div class="m-5 flex gap-5 overflow-x-auto scrollbar-hide ">
+      <img src="./src/img/Rectangle 15.png" alt="" class="cursor-pointer hover">
+      <img src="./src/img/Rectangle 24.png" alt="" class="cursor-pointer hover">
+      <img src="./src/img/Rectangle 15.png" alt="" class="cursor-pointer hover">
+      <img src="./src/img/Rectangle 24.png" alt="" class="cursor-pointer hover">
+      <img src="./src/img/Rectangle 15.png" alt="" class="cursor-pointer hover">
+      <img src="./src/img/Rectangle 24.png" alt="" class="cursor-pointer hover">
+      <img src="./src/img/Rectangle 15.png" alt="" class="cursor-pointer hover">
+      <img src="./src/img/Rectangle 24.png" alt="" class="cursor-pointer hover">
     </div>
   </section>
-
 </body>
-
 </html>
